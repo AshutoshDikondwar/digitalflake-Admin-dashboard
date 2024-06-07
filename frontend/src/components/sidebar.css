@@ -1,0 +1,28 @@
+/* Sidebar.css */
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar-text {
+    flex-grow: 1;
+  }
+  
+  .active {
+    background-color: #f4edaf;
+  }
